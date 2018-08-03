@@ -7,4 +7,4 @@ deploy: https://quiet-lake-48312.herokuapp.com/
   app: Integration-testing-Chai-HTTP
   on:
     repo: JacobMacInnis/Integration-testing-Chai-HTTP
-    branch: tests-for-recipes
+    branch: master

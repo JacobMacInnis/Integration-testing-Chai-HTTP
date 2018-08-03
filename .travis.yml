@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: https://quiet-lake-48312.herokuapp.com/
+  provider: heroku
+  api_key:
+    secure: Je0ipnAKIa6FUBcJwjQz4b1BAgdZhdIhSo+YVCk7+FPhsh8VEMoMIm0PT7O6jvFbUmKPVcpV/cLXKTIuKfn3RZ8JbbL8bDL+IWTDqWPyUUAJmnZeLzGLhy2irqdNvFJhUghzkm84zotEwHtNqzxA4TOboBAl4yVpc+P61ebhJb+Mk53SFdQKSD0u8M6dZUGDcz/yPHBxq+30YvOE0i6baEwFreQR+Z7zgxRNwkV/REJFGYglOcTBNWluNruw2zqa+2maX/585MwjQqxrfbJrH/qpyNFdEvE0eC8HK7+WxeGrr/QNBu9ztV/zJ3p9Gqq4cj88Wj4Y/hGY/iRTyIacXSo6YBcp/SozgOVj+2+cZIIc6usDuwGNcAg3LGvJRnblhZHQuH58Y2BwitGM7ZuwPqBGLybZz4Wl1uvgoNxSdlTmaM2XwGflcMWo2fgZGKFjIWvc88jmqVTRuW31GdSgChfEwDXP3vtYPLjEN1AlwVlf+MCA6OvEnunXAgV4/uwBcfFQslz+Vg2Idc3WgoXGeVpHYWiAsZslhsCOxH9WQfMY0/DEUEjkKDLdGcICKoRLvj8O63gjEp2xpXX+O+63P5W99AKfWKBUNQNDeNrncE0cDtKmDeoOqbFuCH56LIUPiey7J3QPuUfPu4lOWG/SJI+CdjEYan85dAyKpjm6q44=
+  app: Integration-testing-Chai-HTTP
+  on:
+    repo: JacobMacInnis/Integration-testing-Chai-HTTP
+    branch: tests-for-recipes
